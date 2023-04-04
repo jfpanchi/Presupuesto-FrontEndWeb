@@ -115,7 +115,6 @@ let agregarDato = () => {
     let formulario = document.forms['formulario'];
     let tipo_ingreso = formulario['izquierda-btn'];
     let tipo_egreso = formulario['derecha-btn'];
-    console.log(tipo_egreso,tipo_ingreso);
     let descripcion = formulario['descripcion'];
     let valor = formulario['valor'];
     if(descripcion.value !== '' && valor.value !== ''){
